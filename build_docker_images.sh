@@ -8,9 +8,9 @@ DIR="$PWD"
 USR=`who mom likes | awk '{print $1}'`
 
 # --- Configure Here ---
-MAINTAINER="Devin Hughes <devin@jd2.com>"
-BASE_IMAGE_NAME="dkhughes/jessie-vivado-base:latest"
-XV_IMAGE_NAME="dkhughes/jessie-vivado-2015.4:latest"
+MAINTAINER="Michael Haberler <haberlerm@gmail.com>"
+BASE_IMAGE_NAME="mhaberler/jessie-vivado-base:latest"
+XV_IMAGE_NAME="mhaberler/jessie-vivado-2015.4:latest"
 XV_SHARE_PATH=/home/"$USR"/docker-share/vivado
 
 # Populate the docker files with the config
